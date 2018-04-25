@@ -1,0 +1,5 @@
+#!/bin/bash
+pre=:
+post=:
+#echo -e  "$pre "$@" $post \n"
+printf "$pre%s$post\n" "$@"
